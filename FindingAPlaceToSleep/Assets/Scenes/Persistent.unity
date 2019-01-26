@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 46054567}
   - component: {fileID: 46054566}
   - component: {fileID: 46054565}
+  - component: {fileID: 46054569}
   m_Layer: 5
   m_Name: PersistentCanvas
   m_TagString: Untagged
@@ -211,6 +212,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &46054569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46054564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 758ef742e8dd84e3a8c213c6d06a45d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &469752842
 GameObject:
   m_ObjectHideFlags: 0
