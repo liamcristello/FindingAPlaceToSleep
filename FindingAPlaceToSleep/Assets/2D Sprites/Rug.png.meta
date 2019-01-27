@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: cbbc47be31b26734faae61543af2a2db
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rug_0
+    21300002: Rug_1
+    21300004: Rug_2
+    21300006: Rug_3
+    21300008: Rug_4
+    21300010: Rug_5
+    21300012: Rug_6
+    21300014: Rug_7
+    21300016: Rug_8
+    21300018: Rug_9
+    21300020: Rug_10
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rug_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1989
+        width: 1990
+        height: 1667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 135.67184, y: -833.2655}
+        - {x: 264.5781, y: -817.6405}
+        - {x: 345, y: -778.5}
+        - {x: 488, y: -734.5}
+        - {x: 687, y: -614.5}
+        - {x: 905.20306, y: -479.7499}
+        - {x: 976, y: -401.5}
+        - {x: 995, y: -249.5}
+        - {x: 995, y: -20.765541}
+        - {x: 959.89056, y: 94.46883}
+        - {x: 812, y: 359.5}
+        - {x: 689, y: 534.5}
+        - {x: 585, y: 622.5}
+        - {x: 443, y: 739.5}
+        - {x: 303.6406, y: 817.12506}
+        - {x: 163.0156, y: 833.5}
+        - {x: -131.90627, y: 833.5}
+        - {x: -287, y: 812.5}
+        - {x: -441, y: 739.5}
+        - {x: -611, y: 648.5}
+        - {x: -693, y: 555.5}
+        - {x: -771, y: 463.5}
+        - {x: -853, y: 331.5}
+        - {x: -928.78125, y: 143.29695}
+        - {x: -975.65625, y: 10.484456}
+        - {x: -995, y: -139.90616}
+        - {x: -995, y: -292.5}
+        - {x: -995, y: -403.57803}
+        - {x: -579.1719, y: -833.2655}
+        - {x: -282, y: -833.5}
+        - {x: -36, y: -833.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155b00e79f67327448a4dee9491a0a20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rug_2
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 2093
+        width: 1673
+        height: 1337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e383d94860c714486379fdb65fe918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rug_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 591
+        width: 1691
+        height: 1269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dbe5010418988459c766641e23b3d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rug_4
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 555
+        width: 1692
+        height: 1266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda2b3f3291c2494f879b2f80dd68eb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a1592dd31d0dd8041a5312dda39a8cb2
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

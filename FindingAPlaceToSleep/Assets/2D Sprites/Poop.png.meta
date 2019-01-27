@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 4348a4f53ef531b4888d7fb8e9088e24
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Poop_1
+    21300002: Poop_2
+    21300004: Poop_3
+    21300006: Poop_4
+    21300008: Poop_5
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Poop_1
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2458
+        width: 462
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3009b7edb034a40a081c13e49ed935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poop_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1898
+        width: 3414
+        height: 1530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.7578, y: 498.58603}
+        - {x: -562.19525, y: 498.58603}
+        - {x: -669.6171, y: -192.82018}
+        - {x: -669.6171, y: -606.8827}
+        - {x: -368.8359, y: -765}
+        - {x: 515.9297, y: -765}
+        - {x: 810.85156, y: -401.80453}
+        - {x: 810.85156, y: 16.164183}
+        - {x: 232.72656, y: 459.52353}
+      - - {x: -1550, y: -154}
+        - {x: -1300, y: -352}
+        - {x: -991, y: -238}
+        - {x: -612, y: -78}
+        - {x: -518, y: 412}
+        - {x: -1251.6483, y: 260.3048}
+        - {x: -1488, y: 159}
+      - - {x: 1056.9453, y: 682.17975}
+        - {x: 329, y: 361}
+        - {x: 715, y: 60}
+        - {x: 1579, y: 114}
+        - {x: 1603, y: 703}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32753da82e8eee941926096e00915d6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poop_3
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 2870
+        width: 537
+        height: 471
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cec1e1000552340aecbf6bfff08c57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poop_4
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 537
+        width: 1483
+        height: 1417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 259.5, y: 708.5}
+        - {x: -283.06244, y: 708.5}
+        - {x: -492.0468, y: 674.69525}
+        - {x: -741.5, y: -49.91406}
+        - {x: -741.5, y: -631.9453}
+        - {x: -464.70306, y: -708.1171}
+        - {x: 521.625, y: -708.1171}
+        - {x: 741.5, y: -579.21094}
+        - {x: 741.5, y: -122.17968}
+        - {x: 572.40625, y: 297.7422}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09978bb7374345d47b9b6fbe94220d95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poop_5
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 544
+        width: 1466
+        height: 1315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5626374b7649224ea1951e719cd4a5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 702fcaa12ce4d6d4a86da690f4ae16e5
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
