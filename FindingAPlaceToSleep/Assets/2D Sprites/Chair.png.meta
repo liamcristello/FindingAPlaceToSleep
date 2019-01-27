@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 3ae96ce274b58d345ac78743ef9ef067
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Chair_2
+    21300002: Chair_3
+    21300004: Chair_4
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chair_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1310
+        width: 1293
+        height: 1863
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923577cf9180c91489970a7ca0d88832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chair_3
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1279
+        width: 1444
+        height: 1690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 617.85156, y: -450.49213}
+        - {x: 617.85156, y: 131.5391}
+        - {x: -438.789, y: 845}
+        - {x: -722, y: 845}
+        - {x: -721.9921, y: 108.1016}
+        - {x: -563.789, y: -509.08588}
+        - {x: -169.25775, y: -845}
+        - {x: 58, y: -845}
+        - {x: 122, y: -567}
+        - {x: 287, y: -720}
+        - {x: 531.91406, y: -692.6796}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e957f5bee7145439ae37e35ba37142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chair_4
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 235
+        width: 1442
+        height: 1688
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 374.13284, y: 844}
+        - {x: -616.1015, y: -33.554672}
+        - {x: -616.1015, y: -338.24216}
+        - {x: -428.60147, y: -742.539}
+        - {x: -129.77338, y: -844}
+        - {x: 131.94536, y: -844}
+        - {x: 404, y: -470}
+        - {x: 721, y: -21.835922}
+        - {x: 721, y: 844}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b762ab89d0ef0428c9ed2b3d1a047d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 723e5c82e2423004f9b12d126c164944
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
