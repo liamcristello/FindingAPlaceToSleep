@@ -20,8 +20,6 @@ public class RoombaBehaviour : MonoBehaviour
     {
         if (!turning && (col.gameObject.tag == "Walls" || col.gameObject.tag == "Movable" || col.gameObject.tag == "Bed"))
         {
-            Debug.Log(name + " collided with " + col.gameObject.name);
-
             turning = true;
             rb.velocity = Vector3.zero;
 
