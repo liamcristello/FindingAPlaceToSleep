@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class JeoffreyBehaviour : MonoBehaviour
 {
     public float movementSpeed = 10.0f;
     public int turnTime = 5; // how long it takes to turn
     public int turnAmount = 90; // how far to turn
+    public GameObject bed;
 
-    private bool turning;
+    private bool stop;
     private Rigidbody rb;
     private Animator anim;
 
@@ -20,9 +22,9 @@ public class JeoffreyBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
-        if (!turning && (col.gameObject.tag == "Kinematic" || col.gameObject.tag == "Dynamic"))
+        if (!stop && (col.gameObject.tag == "Kinematic" || col.gameObject.tag == "Dynamic"))
         {
-            turning = true;
+            stop = true;
             rb.velocity = Vector3.zero;
             anim.SetBool("isTurning", true);
 
@@ -34,7 +36,13 @@ public class JeoffreyBehaviour : MonoBehaviour
         }
         else if (col.gameObject.tag == "Bed")
         {
-            // TODO
+            stop = true;
+            rb.velocity = Vector3.zero;
+
+            // rotate and translate to match the bed orientation
+            transform.eulerAngles = new Vector3(30.0f, -90.0f, 0.0f);
+
+            anim.SetBool("victory", true);
         }
     }
  
@@ -48,14 +56,14 @@ public class JeoffreyBehaviour : MonoBehaviour
             transform.rotation = Quaternion.Lerp(fromAngle, toAngle, t);
             yield return null;
         }
-        turning = false;
+        stop = false;
         anim.SetBool("isTurning", false);
         GetComponent<BoxCollider>().isTrigger = true;
     }
 
     void FixedUpdate()
     {
-        if (!turning)
+        if (!stop)
         {
             // continuous movement except when turning 
             transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);

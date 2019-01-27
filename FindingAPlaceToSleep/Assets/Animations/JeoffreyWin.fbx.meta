@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: fa69f4eacfb0a8440b6847ead3a7cd18
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: hat1
+    100002: hat2
+    100004: hat3
+    100006: hat4
+    100008: head
+    100010: //RootNode
+    100012: joint31
+    100014: joint32
+    100016: joint33
+    100018: joint34
+    100020: L_arm1
+    100022: L_arm2
+    100024: L_arm3
+    100026: L_arm4
+    100028: L_fingers1
+    100030: L_fingers2
+    100032: L_fingers3
+    100034: L_fingers4
+    100036: L_football
+    100038: L_football1
+    100040: L_hand
+    100042: L_hand1
+    100044: L_heel
+    100046: L_heel1
+    100048: L_leg1
+    100050: L_leg2
+    100052: L_leg3
+    100054: L_leg4
+    100056: L_thumb1
+    100058: L_thumb2
+    100060: L_thumb3
+    100062: L_thumb4
+    100064: L_toe
+    100066: L_toe1
+    100068: L_wrist
+    100070: L_wrist1
+    100072: neck
+    100074: nurbsCircle6
+    100076: pSphere2
+    100078: root
+    100080: Sleepwalker_v02:pSphere2
+    100082: spine1
+    100084: spine2
+    100086: spine3
+    400000: hat1
+    400002: hat2
+    400004: hat3
+    400006: hat4
+    400008: head
+    400010: //RootNode
+    400012: joint31
+    400014: joint32
+    400016: joint33
+    400018: joint34
+    400020: L_arm1
+    400022: L_arm2
+    400024: L_arm3
+    400026: L_arm4
+    400028: L_fingers1
+    400030: L_fingers2
+    400032: L_fingers3
+    400034: L_fingers4
+    400036: L_football
+    400038: L_football1
+    400040: L_hand
+    400042: L_hand1
+    400044: L_heel
+    400046: L_heel1
+    400048: L_leg1
+    400050: L_leg2
+    400052: L_leg3
+    400054: L_leg4
+    400056: L_thumb1
+    400058: L_thumb2
+    400060: L_thumb3
+    400062: L_thumb4
+    400064: L_toe
+    400066: L_toe1
+    400068: L_wrist
+    400070: L_wrist1
+    400072: neck
+    400074: nurbsCircle6
+    400076: pSphere2
+    400078: root
+    400080: Sleepwalker_v02:pSphere2
+    400082: spine1
+    400084: spine2
+    400086: spine3
+    2100000: lambert3
+    2100002: lambert4
+    2300000: pSphere2
+    3300000: pSphere2
+    4300000: pSphere2
+    4300002: Sleepwalker_v02:pSphere2
+    7400000: Win
+    9500000: //RootNode
+    13700000: Sleepwalker_v02:pSphere2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Win
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 81
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
