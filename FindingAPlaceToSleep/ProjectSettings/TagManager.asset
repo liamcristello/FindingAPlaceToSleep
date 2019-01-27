@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Walls
   - Movable
+  - Bed
   layers:
   - Default
   - TransparentFX
