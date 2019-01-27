@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoombaBehaviour : MonoBehaviour
+public class JeoffreyBehaviour : MonoBehaviour
 {
     public float movementSpeed = 10.0f;
     public int turnTime = 5; // how long it takes to turn
@@ -10,18 +10,23 @@ public class RoombaBehaviour : MonoBehaviour
 
     private bool turning;
     private Rigidbody rb;
+    private Animator anim;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter(Collider col)
     {
         if (!turning && (col.gameObject.tag == "Walls" || col.gameObject.tag == "Movable"))
         {
+            Debug.Log("Jeoffrey hit a " + col.gameObject.name);
+
             turning = true;
             rb.velocity = Vector3.zero;
+            anim.SetBool("isTurning", true);
 
             // temporarily gain physics to avoid passing through objects
             GetComponent<BoxCollider>().isTrigger = false;
@@ -30,15 +35,7 @@ public class RoombaBehaviour : MonoBehaviour
             StartCoroutine(RotateMe(Vector3.up * turnAmount, turnTime));
         }
     }
-
-    private void OnCollisionStay(Collision col)
-    {
-        if (col.gameObject.tag == "Walls" || col.gameObject.tag == "Movable")
-        {
-
-        }
-    }
-
+ 
     // interpolate rotations for a turn over time, then remove temporary physics 
     IEnumerator RotateMe(Vector3 byAngles, float inTime)
     {
@@ -50,6 +47,7 @@ public class RoombaBehaviour : MonoBehaviour
             yield return null;
         }
         turning = false;
+        anim.SetBool("isTurning", false);
         GetComponent<BoxCollider>().isTrigger = true;
     }
 
