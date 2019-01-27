@@ -20,7 +20,7 @@ public class JeoffreyBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
-        if (!turning && (col.gameObject.tag == "Walls" || col.gameObject.tag == "Movable"))
+        if (!turning && (col.gameObject.tag == "Kinematic" || col.gameObject.tag == "Dynamic"))
         {
             turning = true;
             rb.velocity = Vector3.zero;
@@ -31,6 +31,10 @@ public class JeoffreyBehaviour : MonoBehaviour
 
             // complete an input-amount turn over input-amount of time
             StartCoroutine(RotateMe(Vector3.up * turnAmount, turnTime));
+        }
+        else if (col.gameObject.tag == "Bed")
+        {
+            // TODO
         }
     }
  

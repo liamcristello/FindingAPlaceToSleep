@@ -20,7 +20,7 @@ public class PetBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
-        if (!turning && (col.gameObject.tag == "Walls" || col.gameObject.tag == "Movable" || col.gameObject.tag == "Bed"))
+        if (!turning && (col.gameObject.tag == "Kinematic" || col.gameObject.tag == "Dynamic" || col.gameObject.tag == "Bed"))
         {
             turning = true;
             rb.velocity = Vector3.zero;
