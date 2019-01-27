@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 12300290dc339874fb924c859c43016e
+guid: 5af57f76668e0d1429345ba0699a983b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -40,34 +40,13 @@ ModelImporter:
     100068: L_wrist
     100070: L_wrist1
     100072: neck
-    100074: nurbsCircle1
-    100076: nurbsCircle10
-    100078: nurbsCircle11
-    100080: nurbsCircle13
-    100082: nurbsCircle15
-    100084: nurbsCircle16
-    100086: nurbsCircle17
-    100088: nurbsCircle2
-    100090: nurbsCircle2 1
-    100092: nurbsCircle22
-    100094: nurbsCircle23
-    100096: nurbsCircle24
-    100098: nurbsCircle25
-    100100: nurbsCircle3
-    100102: nurbsCircle3 1
-    100104: nurbsCircle4
-    100106: nurbsCircle4 1
-    100108: nurbsCircle5
-    100110: nurbsCircle5 1
-    100112: nurbsCircle6
-    100114: nurbsCircle7
-    100116: nurbsCircle8
-    100118: nurbsCircle8 1
-    100120: root
-    100122: Sleepwalker_v02:pSphere2
-    100124: spine1
-    100126: spine2
-    100128: spine3
+    100074: nurbsCircle6
+    100076: pSphere2
+    100078: root
+    100080: Sleepwalker_v02:pSphere2
+    100082: spine1
+    100084: spine2
+    100086: spine3
     400000: hat1
     400002: hat2
     400004: hat3
@@ -105,36 +84,19 @@ ModelImporter:
     400068: L_wrist
     400070: L_wrist1
     400072: neck
-    400074: nurbsCircle1
-    400076: nurbsCircle10
-    400078: nurbsCircle11
-    400080: nurbsCircle13
-    400082: nurbsCircle15
-    400084: nurbsCircle16
-    400086: nurbsCircle17
-    400088: nurbsCircle2
-    400090: nurbsCircle2 1
-    400092: nurbsCircle22
-    400094: nurbsCircle23
-    400096: nurbsCircle24
-    400098: nurbsCircle25
-    400100: nurbsCircle3
-    400102: nurbsCircle3 1
-    400104: nurbsCircle4
-    400106: nurbsCircle4 1
-    400108: nurbsCircle5
-    400110: nurbsCircle5 1
-    400112: nurbsCircle6
-    400114: nurbsCircle7
-    400116: nurbsCircle8
-    400118: nurbsCircle8 1
-    400120: root
-    400122: Sleepwalker_v02:pSphere2
-    400124: spine1
-    400126: spine2
-    400128: spine3
-    2100000: Sleepwalker_v02_lambert1
+    400074: nurbsCircle6
+    400076: pSphere2
+    400078: root
+    400080: Sleepwalker_v02:pSphere2
+    400082: spine1
+    400084: spine2
+    400086: spine3
+    2100000: lambert4
+    2100002: lambert3
+    2300000: pSphere2
+    3300000: pSphere2
     4300000: Sleepwalker_v02:pSphere2
+    4300002: pSphere2
     7400000: Idle
     9500000: //RootNode
     13700000: Sleepwalker_v02:pSphere2
