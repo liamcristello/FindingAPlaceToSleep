@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class DragObject : MonoBehaviour
 {
+    // Setting up important variables to track.
     Vector3 dist;
     Vector3 startPos;
     float posX;
     float posZ;
     float posY;
+
+    // When you click the mouse, calculates mouse position relative to world.
     void OnMouseDown()
     {
         startPos = transform.position;
@@ -18,6 +21,8 @@ public class DragObject : MonoBehaviour
         posZ = Input.mousePosition.z - dist.z;
     }
 
+    // When you drag the mouse, figures out distance from starting position to new position,
+    // to effectively drag whatever object is being held in that direction for that distance.
     void OnMouseDrag()
     {
         float disX = Input.mousePosition.x - posX;
