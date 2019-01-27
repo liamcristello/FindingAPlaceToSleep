@@ -44,6 +44,8 @@ public class PetBehaviour : MonoBehaviour
             transform.rotation = Quaternion.Lerp(fromAngle, toAngle, t);
             yield return null;
         }
+        // Wait before moving again
+        yield return new WaitForSeconds(5);
         turning = false;
         anim.SetBool("isTurning", false);
         GetComponent<BoxCollider>().isTrigger = true;
