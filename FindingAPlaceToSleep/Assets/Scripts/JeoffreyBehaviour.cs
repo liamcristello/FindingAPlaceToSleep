@@ -22,8 +22,6 @@ public class JeoffreyBehaviour : MonoBehaviour
     {
         if (!turning && (col.gameObject.tag == "Walls" || col.gameObject.tag == "Movable"))
         {
-            Debug.Log("Jeoffrey hit a " + col.gameObject.name);
-
             turning = true;
             rb.velocity = Vector3.zero;
             anim.SetBool("isTurning", true);

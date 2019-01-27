@@ -20,6 +20,8 @@ public class RoombaBehaviour : MonoBehaviour
     {
         if (!turning && (col.gameObject.tag == "Walls" || col.gameObject.tag == "Movable" || col.gameObject.tag == "Bed"))
         {
+            Debug.Log(name + " collided with " + col.gameObject.name);
+
             turning = true;
             rb.velocity = Vector3.zero;
 
@@ -28,14 +30,6 @@ public class RoombaBehaviour : MonoBehaviour
 
             // complete an input-amount turn over input-amount of time
             StartCoroutine(RotateMe(Vector3.up * turnAmount, turnTime));
-        }
-    }
-
-    private void OnCollisionStay(Collision col)
-    {
-        if (col.gameObject.tag == "Walls" || col.gameObject.tag == "Movable")
-        {
-
         }
     }
 
